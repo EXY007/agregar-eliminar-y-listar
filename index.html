@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./controlador.js" defer ></script>
+    <style>
+        body{
+            text-align: center;
+        }
+        input{
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Listado de productos</h1>
+    <input type="text" id="txtCaja"  placeholder="nuevo producto">
+    
+    <input style="background-color: green;" type="submit" id="btnGuardar" value="guardar" onclick=agregar()>
+    <input style="background-color: orange;" type="submit" id="btnEliminar" value="Eliminar" onclick=eliminar()>
+    <input style="background-color: orange;" type="submit" id="btnEliminarPri" value="EliminarPri" onclick=eliminarPri() >
+
+    <p id="pLista"></p>
+</body>
+</html>

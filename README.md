@@ -1,0 +1,2 @@
+##### se muestra un texbox, boton de agregar, eliminar y eliminarPrimer
+#### existe un array vacio en el .JS al cual se le agregan "productos" los cuales se ven en la pag.html y los demas btns borran aun producto del array ya sea por la izquierda(primero) o la derecha(ultimo)
